@@ -1,0 +1,45 @@
+.rightpart{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 62%;
+    padding-top: 2%;
+    margin: 1%;
+    border-top: 3px solid grey;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 2%;
+    width: 7%;
+    margin-left: 5%;
+}
+.navbar{
+    /* border-bottom: 0.5px solid gray; */
+    position: sticky;
+}
+.navbartext{
+    padding: 15px;
+}
+#globe{
+    padding: 15px;
+}
+.navbarprofilespan{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 25%;
+    width: 35%;
+    margin-top: -5%;
+}
+#profile,#menu{
+    padding: 15px;
+    margin: 0% 5%;
+}
+#profile{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}

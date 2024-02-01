@@ -1,0 +1,50 @@
+.carddiv{
+    background-size: contain;
+    width: 15vw;
+    height: 40vh;
+}
+.sc2card{
+    width: 16vw;
+}
+
+.sc1carddiv{
+    background-size: contain;
+    width: 40vw;
+    height: 50vh;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.cardhead{
+    display: inline-block;
+    color: white;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.carddesc{
+    display: inline-block;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    width: 25%;
+    height: 25%;
+    margin-left: 3%;
+}
+.cardbtn{
+    margin-left: 3%;
+    position: relative;
+    bottom: -40%;
+    border-radius: 5px;
+    padding: 8px;
+    width: 15%;
+    border: none;
+}
+.like{
+    position: relative;
+    left: 75%;
+    top: 2%;
+    color: red;
+}
+#heart{
+    font-size: larger;
+}

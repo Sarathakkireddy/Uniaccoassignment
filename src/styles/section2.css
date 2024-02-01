@@ -1,0 +1,45 @@
+.sc2{
+    display: inline-flex;
+    width: fit-content;
+    
+}
+.sc2scroll{
+    display: inline-block;
+    width: 100%;
+    height:max-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.sc2scroll::-webkit-scrollbar {
+    display: none;
+  }
+.sc2div{
+display: inline-block;
+margin-left: 2%;
+width: 98%;
+}
+.sc2heading{
+    display: inline-block;
+}
+.backsc,.frontsc{
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    width: fit-content;
+    margin: 2px;
+    padding: 1%;
+    border: 1px solid black;
+}
+.backscn,.frontscn{
+    border-radius: 50%;
+    position: relative;
+    color: rgb(238, 237, 237);
+    left: 50%;
+    width: fit-content;
+    margin: 2px;
+    padding: 1%;
+    border: 1px solid rgb(238, 237, 237);
+}
+#scmover{
+    width: 5px;
+}
